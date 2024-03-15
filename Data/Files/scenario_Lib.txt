@@ -1,0 +1,55 @@
+========= at the center section.
+1. Scroll to section "Simple Login Page" DONE
+   - type username & password
+   - click login + check text on popup
+   - click cancel + check textbox is empty
+
+2. Move to Text area tow: check text "Text Area Field Two" DONE
+
+3. Move to Table and print all text of rows DONE
+
+4. Move to frame 1 & frame 2 check they are visible DONE
+
+======== at the right panel ======== ======== ======== 
+
+5. section of checkbox: 
+  click 1 checkbox Orange + verify is selected ========    DONE
+
+6.click 1 radio Male + verify is selected ========    DONE
+
+7. move to double click + verify list presence
+
+8. click delay button and verify list presence
+                        + select one of 3 links
+		        + back to previous page
+
+================= at the lelf panel    ========  ======== ======== 
+                    
+1. Move to Multi option select    ======== DONE
+  select 1 or n item
+
+2. droplist "Older Newsletters":
+   select any and check selected item ======== DONE
+
+3. Box "Text Box with Preloaded Text" check value equal preloaded value ====== DONE
+
+4. Open new  window.  ====== DONE
+  - click link
+  - switch to new tab 
+  - switch back old tab and delete new tab
+
+5. Check enabled button and disabled button ====== DONE
+
+6. Check disabled textbox ====== DONE
+
+7. print item Ordered List/ UnOrdered list ====== DONE
+
+8. Popup window.
+
+- click Open new popup
+- Verify text on new pop up
+- close popup
+
+9. Upload file
+
+10. 
