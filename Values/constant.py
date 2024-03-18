@@ -1,8 +1,8 @@
 '''=====================
 Credential login
 ========================='''
-USERNAME = "admin"
-PASSWORD = "222222"
+USERNAME = "standard_user"
+PASSWORD = "secret_sauce"
 
 # URL
 URL_FLIP = "https://www.flipkart.com"
@@ -29,7 +29,7 @@ CONFIG = {
     "Browser":[{"name":"chrome"},
                 {"name":"firefox"},
                 {"name":"edge"}],
-    "URL": { "testing": "https://omayo.blogspot.com",
+    "URL": { "testing": "https://www.saucedemo.com/",
              "staging": ""},
     "TimeOut": {"explicit": 30,
               "implicit": 35}

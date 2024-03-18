@@ -1,0 +1,17 @@
+1. Precondition: Pychamr, python has been installed.
+
+2. Open  test case in source course "\Data\Document\SAULAB_TESTCASE.xlsx"
+	- Read testcase ID:  
+		+ LG_01 (sheet LOGIN), 
+                + HO-02 (sheet HOME)
+ 
+3. Open Test script "\TestScript\Saulab-demo\"
+    		+ test_home_page.py
+		+ test_login_page.py
+
+4. Link steps in test case with test script for scripting
+5. Run test script:
+   At terminal in Pycharm or CMD run:  pytest -s -v .\TestScript\Saulab-demo --alluredir .\Report\
+
+6. Generate report:
+   At terminal in Pycharm or CMD run:  allure serve .\Report\
