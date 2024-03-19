@@ -23,7 +23,7 @@ class TestLogin(Driver):
         lg.screenshot('input credential')
         # click login
         lg.click_element(lg.btn_login)
-        # add comment
+
         # check home page is displayed
         home = Home(self.driver)
         try:
