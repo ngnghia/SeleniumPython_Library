@@ -1,3 +1,6 @@
+This guide shows the way to write test script based on existing test scenarios with framework
+=========================================================================
+
 1. Precondition: install below:
         Pychamr community 2022.3 (or newer),
         python 3.8 or greater
@@ -5,10 +8,10 @@
 2. Open  test case in source course "\Data\Document\SAULAB_TESTCASE.xlsx"
 	- Read testcase ID:  
 		+ LG_01 (sheet LOGIN), 
-                + HO-02 (sheet HOME)
+        + HO-02 (sheet HOME)
  
 3. Open Test script "\TestScript\Saulab-demo\"
-    		+ test_home_page.py
+        + test_home_page.py
 		+ test_login_page.py
 
 4. Link steps in test case with test script for scripting
