@@ -1,4 +1,6 @@
-1. Precondition: Pychamr, python has been installed.
+1. Precondition: install below:
+        Pychamr community 2022.3 (or newer),
+        python 3.8 or greater
 
 2. Open  test case in source course "\Data\Document\SAULAB_TESTCASE.xlsx"
 	- Read testcase ID:  
