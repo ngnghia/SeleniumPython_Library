@@ -4,9 +4,8 @@ from Values.constant import *
 
 class Driver:
     @pytest.fixture(autouse=True)
-    def tc_setup(self):
+    def init_driver(self):
         # # get browser from config
-        # browser = CONFIG.get("Browser")[0].get("name")
         browser = CONFIG["Browser"][0]["name"]
         if browser == "chrome":
             self.driver = webdriver.Chrome()

@@ -34,7 +34,7 @@ class CommonMethods:
             e = self.driver.find_element(*locator)
             return e.get_attribute("value").strip()
         except Exception as e:
-            return ''
+            print(e)
 
     # get test from label, link ...
     def get_text_element(self, locator):
@@ -43,7 +43,7 @@ class CommonMethods:
             e = self.driver.find_element(*locator)
             return e.text.strip()
         except Exception as e:
-            return ''
+            print(e)
 
     def click_element(self, locator):
         try:
@@ -214,14 +214,14 @@ class CommonMethods:
     # WAIT ELEMENT visible BEFORE do test
     def wait_for_element_visible(self, locator):
         try:
-            WebDriverWait(self.driver, 30).until((EC.visibility_of_all_elements_located(locator)))
+            WebDriverWait(self.driver, 30).until(EC.visibility_of_all_elements_located(locator))
         except TimeoutException:
             print("it took so long to load")
 
     # WAIT ELEMENT precence
     def wait_for_element_precense(self, locator):
         try:
-            WebDriverWait(self.driver, 30).until((EC.presence_of_element_located(locator)))
+            WebDriverWait(self.driver, 30).until(EC.presence_of_element_located(locator))
         except TimeoutException:
             print("it took so long to load")
 

@@ -5,7 +5,7 @@ This guide shows the way to write test script based on existing test scenarios w
         Pychamr community 2022.3 (or newer),
         python 3.8 or greater
 
-2. down source:
+2. down source: 
 
 3. Open  test case in source course "\Data\Document\SAULAB_TESTCASE.xlsx"
 	- Read testcase ID:  

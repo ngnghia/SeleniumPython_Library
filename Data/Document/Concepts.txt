@@ -1,0 +1,45 @@
+1. What is Automation Testing?
+
+Automation testing is the process of automating the execution of test cases through scripts and/or specialized tools.
+Instead of having a human tester manually executing test case by test case, these scripts and tools directly command
+the Application Under Test (AUT) to perform all of the required actions, freeing up bandwidth for testers to focus more
+on more strategic activities.
+
+The concept of Automation Testing is not strictly limited to the Execution phase, although it is generally understood
+and accepted in the testing community that automation testing means “automatically executing a test case”.
+Automation testing can actually be an umbrella term referring to the “automation of any testing activity across
+the testing life cycle”.
+
+2. Benefits of Automation Testing
+
+Automation testing is the best way to enhance effectiveness, broaden test coverage, and improve execution speed in
+software testing. There are several reasons why Automation Testing is crucial:
+
+Improved Accuracy: Automation testing reduces the likelihood of human errors as automated tests are designed to
+strictly follow a set of predefined steps. Automated tests eliminate the chances of human testers introducing errors
+like forgetting a certain step while executing the tests.
+
+Increased Speed: Automated tests can run continuously, in parallel, 24/7, without the need for human intervention,
+further increasing the speed of test execution and reducing the overall testing time.
+
+Consistency: A lack of testing consistency and standardization can result in missing important issues. In continuous
+testing scenarios, say triggering regular regression test runs, automation suites are indispensable. With automation
+testing, test cases are executed in exactly the same way every time they are run. They can also be run multiple
+times a day, ensuring that new issues are quickly identified and resolved, leading to improved confidence
+in the software quality.
+
+Cost Savings: Projects dealing with more advanced infrastructures or a variety of application types see
+the highest automation ROI. The costs of time, technologies and human resources are often the biggest blockers to
+automation adoption. Not only pertaining to software test automation, setting up and standardizing automated workflows
+don’t happen overnight. However, the long-term ROI in accuracy, speed, and consistency is guaranteed.
+
+Enhanced Test Coverage: Automated test suites can be reused to run against multiple browsers, devices and operating
+systems combinations. Instead of performing the exact test steps over and over again, simply lock down the most
+ common environment your users are accessing and press run.
+
+Improved Test Reusability: Once automated tests are created, they can be stored and reused across multiple systems
+with the click of a button, and testers do not need to spend time re-creating and executing tests for each testing cycle.
+
+Continuous Testing: Automated tests can be run frequently and at any stage of the development process,
+whether it's during the development phase, integration phase, or after deployment. They can even be integrated into
+the development pipeline, so that they are run automatically every time new changes are made to the software.
